@@ -1,5 +1,5 @@
 main {
-	height: 100vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,7 +25,22 @@ main {
 }
 
 footer {
+	padding: 0 0.8rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+footer .group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+footer .group > strong {
+	margin: 0 0 0.4rem 0;
+}
+
+footer .group p {
+	line-height: 1.2;
 }

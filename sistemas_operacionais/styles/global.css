@@ -9,6 +9,11 @@ body {
 	background-color: rgb(240, 252, 198);
 }
 
+header {
+	margin: 1rem 0 0 0;
+	text-align: center;
+}
+
 a {
 	text-decoration: none;
 	color: #000;
